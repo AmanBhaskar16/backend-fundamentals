@@ -1,0 +1,17 @@
+ {
+  "compilerOptions": {
+    "target": "ES2022",                          /* Specify ECMAScript target version */
+    "module": "NodeNext",                        /* Specify module code generation */
+    "moduleResolution": "NodeNext",              /* Specify how TypeScript looks up a file */
+    "rootDir": "./src",                          /* Specify the root folder of source files */
+    "outDir": "./dist",                          /* Redirect output structure to the directory */
+    "strict": true,                              /* Enable all strict type-checking options */
+    "esModuleInterop": true,                     /* Emit additional JavaScript to ease importing CommonJS modules */
+    "skipLibCheck": true,                        /* Skip type checking of declaration files */
+    "forceConsistentCasingInFileNames": true,    /* Disallow inconsistently-cased references to the same file */
+    "sourceMap": true,                            /* Create source map files for debugging */
+    "types" : ["node"]                                 /* Include type definitions for Node.js */
+  },
+  "include": ["**/*.ts", "**/*.tsx"],            /* Include TypeScript source files in the project */
+  "exclude": ["node_modules", "dist"]            /* Exclude dependencies and build outputs */
+}
